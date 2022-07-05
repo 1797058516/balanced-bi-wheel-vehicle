@@ -1,0 +1,268 @@
+The target system is: Generic - 1 - 
+The host system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (xPack GNU Arm Embedded GCC, 64-bit) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.1/bin/ninja/win/ninja.exe cmTC_a71d1 && [1/2] Building C object CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=C:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\arm-none-eabi-gcc.exe
+Target: arm-none-eabi
+Configured with: /Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/sources/gcc/configure --prefix=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc --infodir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/info --mandir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/pdf --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --with-pkgversion='xPack GNU Arm Embedded GCC\x2C 64-bit' --enable-languages=c,c++ --enable-mingw-wildcard --enable-plugins --enable-lto --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/arm-none-eabi --with-native-system-header-dir=/include --with-multilib-list=rmprofile --disable-rpath --disable-build-format-warnings --with-system-zlib
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (xPack GNU Arm Embedded GCC, 64-bit) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/9.2.1/cc1.exe -quiet -v -iprefix c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/JetBrains/CLion 2022.1.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccFfH6sv.s
+GNU C17 (xPack GNU Arm Embedded GCC, 64-bit) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 7.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"
+ignoring nonexistent directory "c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/lib/gcc/arm-none-eabi/9.2.1/../../../../include"
+ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"
+ignoring duplicate directory "c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/include
+ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed
+ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (xPack GNU Arm Embedded GCC, 64-bit) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 7.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 63d2d2ea32c20cd5d341797481bb44a5
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccFfH6sv.s
+GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC, 64-bit) 2.33.1.20191025
+COMPILER_PATH=c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/9.2.1/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+[2/2] Linking C static library libcmTC_a71d1.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/include]
+    add: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+    add: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/include] ==> [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/arm-none-eabi/9.2.1/include]
+  collapse include dir [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed] ==> [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  collapse include dir [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include] ==> [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include]
+  implicit include dirs: [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/arm-none-eabi/9.2.1/include;C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/arm-none-eabi/9.2.1/include-fixed;C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.1/bin/ninja/win/ninja.exe cmTC_a71d1 && [1/2] Building C object CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\arm-none-eabi-gcc.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/sources/gcc/configure --prefix=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc --infodir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/info --mandir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/pdf --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --with-pkgversion='xPack GNU Arm Embedded GCC\x2C 64-bit' --enable-languages=c,c++ --enable-mingw-wildcard --enable-plugins --enable-lto --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/arm-none-eabi --with-native-system-header-dir=/include --with-multilib-list=rmprofile --disable-rpath --disable-build-format-warnings --with-system-zlib]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (xPack GNU Arm Embedded GCC  64-bit) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/9.2.1/cc1.exe -quiet -v -iprefix c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/JetBrains/CLion 2022.1.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccFfH6sv.s]
+  ignore line: [GNU C17 (xPack GNU Arm Embedded GCC  64-bit) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/lib/gcc/arm-none-eabi/9.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring duplicate directory "c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/include]
+  ignore line: [ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  ignore line: [ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (xPack GNU Arm Embedded GCC  64-bit) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 63d2d2ea32c20cd5d341797481bb44a5]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccFfH6sv.s]
+  ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC  64-bit) 2.33.1.20191025]
+  ignore line: [COMPILER_PATH=c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a71d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [[2/2] Linking C static library libcmTC_a71d1.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.1/bin/ninja/win/ninja.exe cmTC_93f5a && [1/2] Building CXX object CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=C:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\arm-none-eabi-g++.exe
+Target: arm-none-eabi
+Configured with: /Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/sources/gcc/configure --prefix=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc --infodir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/info --mandir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/pdf --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --with-pkgversion='xPack GNU Arm Embedded GCC\x2C 64-bit' --enable-languages=c,c++ --enable-mingw-wildcard --enable-plugins --enable-lto --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/arm-none-eabi --with-native-system-header-dir=/include --with-multilib-list=rmprofile --disable-rpath --disable-build-format-warnings --with-system-zlib
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (xPack GNU Arm Embedded GCC, 64-bit) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/9.2.1/cc1plus.exe -quiet -v -iprefix c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/JetBrains/CLion 2022.1.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccrKQ2aN.s
+GNU C++14 (xPack GNU Arm Embedded GCC, 64-bit) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 7.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"
+ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"
+ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"
+ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"
+ignoring nonexistent directory "c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/lib/gcc/arm-none-eabi/9.2.1/../../../../include"
+ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"
+ignoring duplicate directory "c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1
+ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi
+ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward
+ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/include
+ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed
+ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (xPack GNU Arm Embedded GCC, 64-bit) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 7.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ba5366aed51beae931f0dc1b2674edc7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccrKQ2aN.s
+GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC, 64-bit) 2.33.1.20191025
+COMPILER_PATH=c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/9.2.1/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+[2/2] Linking CXX static library libcmTC_93f5a.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1]
+    add: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi]
+    add: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward]
+    add: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/include]
+    add: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+    add: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1] ==> [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include/c++/9.2.1]
+  collapse include dir [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi] ==> [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include/c++/9.2.1/arm-none-eabi]
+  collapse include dir [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward] ==> [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include/c++/9.2.1/backward]
+  collapse include dir [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/include] ==> [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/arm-none-eabi/9.2.1/include]
+  collapse include dir [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed] ==> [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  collapse include dir [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include] ==> [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include]
+  implicit include dirs: [C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include/c++/9.2.1;C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include/c++/9.2.1/arm-none-eabi;C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include/c++/9.2.1/backward;C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/arm-none-eabi/9.2.1/include;C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/arm-none-eabi/9.2.1/include-fixed;C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.1/bin/ninja/win/ninja.exe cmTC_93f5a && [1/2] Building CXX object CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\arm-none-eabi-g++.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/sources/gcc/configure --prefix=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc --infodir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/info --mandir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/man --htmldir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/html --pdfdir=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/share/doc/pdf --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --with-pkgversion='xPack GNU Arm Embedded GCC\x2C 64-bit' --enable-languages=c,c++ --enable-mingw-wildcard --enable-plugins --enable-lto --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/arm-none-eabi --with-native-system-header-dir=/include --with-multilib-list=rmprofile --disable-rpath --disable-build-format-warnings --with-system-zlib]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (xPack GNU Arm Embedded GCC  64-bit) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/9.2.1/cc1plus.exe -quiet -v -iprefix c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/JetBrains/CLion 2022.1.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\ADMINI~1\AppData\Local\Temp\ccrKQ2aN.s]
+  ignore line: [GNU C++14 (xPack GNU Arm Embedded GCC  64-bit) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"]
+  ignore line: [ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"]
+  ignore line: [ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi/Host/home/ilg/Work/arm-none-eabi-gcc-9.2.1-1.1/win32-x64/install/arm-none-eabi-gcc/lib/gcc/arm-none-eabi/9.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring duplicate directory "c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../arm-none-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1]
+  ignore line: [ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi]
+  ignore line: [ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward]
+  ignore line: [ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/include]
+  ignore line: [ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  ignore line: [ c:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (xPack GNU Arm Embedded GCC  64-bit) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ba5366aed51beae931f0dc1b2674edc7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccrKQ2aN.s]
+  ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (xPack GNU Arm Embedded GCC  64-bit) 2.33.1.20191025]
+  ignore line: [COMPILER_PATH=c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../libexec/gcc/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93f5a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [[2/2] Linking CXX static library libcmTC_93f5a.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
