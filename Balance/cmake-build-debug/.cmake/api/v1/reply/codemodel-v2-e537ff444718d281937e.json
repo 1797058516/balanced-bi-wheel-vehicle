@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Balance.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Balance.elf-Debug-599cc6127972553ca628.json",
+					"jsonFile" : "target-Balance.elf-Debug-713c6bfc8d6c0730abe4.json",
 					"name" : "Balance.elf",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug",
-		"source" : "D:/GitHub/balanced-bi-wheel-vehicle/Balance"
+		"build" : "C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug",
+		"source" : "C:/Users/Administrator/Desktop/CLionProjects/Balance"
 	},
 	"version" : 
 	{
