@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug/
+cmake_ninja_workdir = D$:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Balance.elf
 
@@ -49,187 +49,243 @@ cmake_ninja_workdir = C$:/Users/Administrator/Desktop/CLionProjects/Balance/cmak
 
 build cmake_object_order_depends_target_Balance.elf: phony || CMakeFiles/Balance.elf.dir
 
-build CMakeFiles/Balance.elf.dir/Core/Src/gpio.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Src/gpio.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Bsp/imu/MPU6050.cpp.obj: CXX_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/MPU6050.cpp || cmake_object_order_depends_target_Balance.elf
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\Balance.elf.dir\Bsp\imu\MPU6050.cpp.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu++17
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
+  OBJECT_DIR = CMakeFiles\Balance.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Bsp\imu
+
+build CMakeFiles/Balance.elf.dir/Bsp/imu/filters/biquad_filter.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters/biquad_filter.c || cmake_object_order_depends_target_Balance.elf
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\Balance.elf.dir\Bsp\imu\filters\biquad_filter.c.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
+  OBJECT_DIR = CMakeFiles\Balance.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Bsp\imu\filters
+
+build CMakeFiles/Balance.elf.dir/Bsp/imu/filters/filter_math.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters/filter_math.c || cmake_object_order_depends_target_Balance.elf
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\Balance.elf.dir\Bsp\imu\filters\filter_math.c.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
+  OBJECT_DIR = CMakeFiles\Balance.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Bsp\imu\filters
+
+build CMakeFiles/Balance.elf.dir/Bsp/imu/i2c_dev.cpp.obj: CXX_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/i2c_dev.cpp || cmake_object_order_depends_target_Balance.elf
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\Balance.elf.dir\Bsp\imu\i2c_dev.cpp.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu++17
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
+  OBJECT_DIR = CMakeFiles\Balance.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Bsp\imu
+
+build CMakeFiles/Balance.elf.dir/Core/Src/gpio.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Src/gpio.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Core\Src\gpio.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Core\Src
 
-build CMakeFiles/Balance.elf.dir/Core/Src/main.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Src/main.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Core/Src/i2c.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Src/i2c.c || cmake_object_order_depends_target_Balance.elf
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\Balance.elf.dir\Core\Src\i2c.c.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
+  OBJECT_DIR = CMakeFiles\Balance.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Core\Src
+
+build CMakeFiles/Balance.elf.dir/Core/Src/main.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Src/main.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Core\Src\main.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Core\Src
 
-build CMakeFiles/Balance.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Src/stm32f1xx_hal_msp.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Src/stm32f1xx_hal_msp.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Core\Src
 
-build CMakeFiles/Balance.elf.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Src/stm32f1xx_it.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Src/stm32f1xx_it.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Core\Src\stm32f1xx_it.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Core\Src
 
-build CMakeFiles/Balance.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Src/syscalls.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Src/syscalls.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Core\Src\syscalls.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Core\Src
 
-build CMakeFiles/Balance.elf.dir/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Src/system_stm32f1xx.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Src/system_stm32f1xx.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Core\Src\system_stm32f1xx.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Core\Src
 
-build CMakeFiles/Balance.elf.dir/Core/Src/usart.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Src/usart.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Core/Src/usart.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Src/usart.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Core\Src\usart.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Core\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c || cmake_object_order_depends_target_Balance.elf
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
+  OBJECT_DIR = CMakeFiles\Balance.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
-build CMakeFiles/Balance.elf.dir/Platform/retarget.c.obj: C_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/Platform/retarget.c || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/Platform/retarget.c.obj: C_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform/retarget.c || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\Platform\retarget.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\Platform
 
-build CMakeFiles/Balance.elf.dir/startup/startup_stm32f103xb.s.obj: ASM_COMPILER__Balance.2eelf_Debug C$:/Users/Administrator/Desktop/CLionProjects/Balance/startup/startup_stm32f103xb.s || cmake_object_order_depends_target_Balance.elf
+build CMakeFiles/Balance.elf.dir/User/main.cpp.obj: CXX_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/User/main.cpp || cmake_object_order_depends_target_Balance.elf
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\Balance.elf.dir\User\main.cpp.obj.d
+  FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu++17
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
+  OBJECT_DIR = CMakeFiles\Balance.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\User
+
+build CMakeFiles/Balance.elf.dir/startup/startup_stm32f103xb.s.obj: ASM_COMPILER__Balance.2eelf_Debug D$:/GitHub/balanced-bi-wheel-vehicle/Balance/startup/startup_stm32f103xb.s || cmake_object_order_depends_target_Balance.elf
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\Balance.elf.dir\startup\startup_stm32f103xb.s.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
-  INCLUDES = -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Core/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Administrator/Desktop/CLionProjects/Balance/Drivers/CMSIS/Include
+  INCLUDES = -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Core/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Drivers/CMSIS/Include -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Bsp/imu/filters -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/Platform -ID:/GitHub/balanced-bi-wheel-vehicle/Balance/User
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Balance.elf.dir\startup
 
@@ -241,11 +297,11 @@ build CMakeFiles/Balance.elf.dir/startup/startup_stm32f103xb.s.obj: ASM_COMPILER
 #############################################
 # Link the executable Balance.elf
 
-build Balance.elf: C_EXECUTABLE_LINKER__Balance.2eelf_Debug CMakeFiles/Balance.elf.dir/Core/Src/gpio.c.obj CMakeFiles/Balance.elf.dir/Core/Src/main.c.obj CMakeFiles/Balance.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/Balance.elf.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/Balance.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/Balance.elf.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/Balance.elf.dir/Core/Src/usart.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/Balance.elf.dir/Platform/retarget.c.obj CMakeFiles/Balance.elf.dir/startup/startup_stm32f103xb.s.obj
+build Balance.elf: CXX_EXECUTABLE_LINKER__Balance.2eelf_Debug CMakeFiles/Balance.elf.dir/Bsp/imu/MPU6050.cpp.obj CMakeFiles/Balance.elf.dir/Bsp/imu/filters/biquad_filter.c.obj CMakeFiles/Balance.elf.dir/Bsp/imu/filters/filter_math.c.obj CMakeFiles/Balance.elf.dir/Bsp/imu/i2c_dev.cpp.obj CMakeFiles/Balance.elf.dir/Core/Src/gpio.c.obj CMakeFiles/Balance.elf.dir/Core/Src/i2c.c.obj CMakeFiles/Balance.elf.dir/Core/Src/main.c.obj CMakeFiles/Balance.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/Balance.elf.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/Balance.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/Balance.elf.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/Balance.elf.dir/Core/Src/usart.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj CMakeFiles/Balance.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/Balance.elf.dir/Platform/retarget.c.obj CMakeFiles/Balance.elf.dir/User/main.cpp.obj CMakeFiles/Balance.elf.dir/startup/startup_stm32f103xb.s.obj
   FLAGS = -g
-  LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug/Balance.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T C:/Users/Administrator/Desktop/CLionProjects/Balance/STM32F103C8Tx_FLASH.ld
+  LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/Balance.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T D:/GitHub/balanced-bi-wheel-vehicle/Balance/STM32F103C8Tx_FLASH.ld
   OBJECT_DIR = CMakeFiles\Balance.elf.dir
-  POST_BUILD = cmd.exe /C "cd /D C:\Users\Administrator\Desktop\CLionProjects\Balance\cmake-build-debug && arm-none-eabi-objcopy -Oihex C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug/Balance.elf C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug/Balance.hex && arm-none-eabi-objcopy -Obinary C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug/Balance.elf C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug/Balance.bin"
+  POST_BUILD = cmd.exe /C "cd /D D:\GitHub\balanced-bi-wheel-vehicle\Balance\cmake-build-debug && arm-none-eabi-objcopy -Oihex D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/Balance.elf D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/Balance.hex && arm-none-eabi-objcopy -Obinary D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/Balance.elf D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/Balance.bin"
   PRE_LINK = cd .
   TARGET_FILE = Balance.elf
   TARGET_PDB = Balance.elf.dbg
@@ -255,7 +311,7 @@ build Balance.elf: C_EXECUTABLE_LINKER__Balance.2eelf_Debug CMakeFiles/Balance.e
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\Desktop\CLionProjects\Balance\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\GitHub\balanced-bi-wheel-vehicle\Balance\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -266,7 +322,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\Desktop\CLionProjects\Balance\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Administrator\Desktop\CLionProjects\Balance -BC:\Users\Administrator\Desktop\CLionProjects\Balance\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\GitHub\balanced-bi-wheel-vehicle\Balance\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\GitHub\balanced-bi-wheel-vehicle\Balance -BD:\GitHub\balanced-bi-wheel-vehicle\Balance\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -282,7 +338,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug
+# Folder: D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug
 
 build all: phony Balance.elf
 

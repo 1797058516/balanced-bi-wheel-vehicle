@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug"
+			"value" : "D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug"
 		},
 		{
 			"name" : "Balance_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Administrator/Desktop/CLionProjects/Balance"
+			"value" : "D:/GitHub/balanced-bi-wheel-vehicle/Balance"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -199,7 +199,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug"
+			"value" : "d:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -283,10 +283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/arm-none-eabi-g++.exe"
 		},
 		{
@@ -411,10 +411,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/dev/tools/xpack-arm-none-eabi-gcc-9.2.1-1.1/bin/arm-none-eabi-gcc.exe"
 		},
 		{
@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Administrator/Desktop/CLionProjects/Balance"
+			"value" : "D:/GitHub/balanced-bi-wheel-vehicle/Balance"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

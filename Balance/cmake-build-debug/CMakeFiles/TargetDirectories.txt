@@ -1,3 +1,3 @@
-C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug/CMakeFiles/Balance.elf.dir
-C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Administrator/Desktop/CLionProjects/Balance/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/CMakeFiles/Balance.elf.dir
+D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHub/balanced-bi-wheel-vehicle/Balance/cmake-build-debug/CMakeFiles/rebuild_cache.dir

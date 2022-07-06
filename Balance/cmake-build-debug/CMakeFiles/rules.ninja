@@ -32,11 +32,21 @@ rule C_COMPILER__Balance.2eelf_Debug
 
 
 #############################################
-# Rule for linking C executable.
+# Rule for compiling CXX files.
 
-rule C_EXECUTABLE_LINKER__Balance.2eelf_Debug
-  command = cmd.exe /C "$PRE_LINK && C:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
-  description = Linking C executable $TARGET_FILE
+rule CXX_COMPILER__Balance.2eelf_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\arm-none-eabi-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Balance.2eelf_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\dev\tools\xpack-arm-none-eabi-gcc-9.2.1-1.1\bin\arm-none-eabi-g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
 
@@ -52,7 +62,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Administrator\Desktop\CLionProjects\Balance -BC:\Users\Administrator\Desktop\CLionProjects\Balance\cmake-build-debug
+  command = "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\GitHub\balanced-bi-wheel-vehicle\Balance -BD:\GitHub\balanced-bi-wheel-vehicle\Balance\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
