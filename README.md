@@ -6,3 +6,4 @@
 ![image](https://user-images.githubusercontent.com/58476906/177524810-154220d3-1251-4ff9-a848-30222b8bdda5.png)  
 3.所创建的头文件和文件夹需要在CMakeList.txt中添加头文件的目录。利用这两个命令增加include_directories();file();  
 4.莫名bug：我先用cube初始化iic，然后编写完mpu6050的代码的时候，准备去cube初始化定时器的代码，生成的工程中MX_TIM3_Init();MX_TIM4_Init(); MX_TIM2_Init();这几个函数都是空发的函数！所以在cube初始化的时候就把所有的外设引脚先初始化好。  
+5.printf的重映射问题，网上的方法只针对keil有用，但是clion中重映射之后并不会链接到库中，所以要自己写函数并去覆盖它。这样printf才可以发挥串口作用！
