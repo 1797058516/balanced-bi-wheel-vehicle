@@ -148,7 +148,7 @@ caddr_t _sbrk(int incr)
 //	st->st_mode = S_IFCHR;
 //	return 0;
 //}
-
+//
 //int _isatty(int file)
 //{
 //	return 1;

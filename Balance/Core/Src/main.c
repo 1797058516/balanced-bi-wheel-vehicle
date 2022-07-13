@@ -18,20 +18,21 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "i2c.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
-#include "../../Platform/retarget.h"
-#include "../../User/common_inc.h"
+#include "../../Bsp/MPU6050/mpu6050.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 extern UART_HandleTypeDef huart1;
+extern I2C_HandleTypeDef hi2c1;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -67,7 +68,7 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-    RetargetInit(&huart1);
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -76,7 +77,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+    RetargetInit(&huart1);
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -88,21 +89,52 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_USART1_UART_Init();
+  MX_ADC1_Init();
   MX_I2C1_Init();
+  MX_TIM2_Init();
+  MX_TIM3_Init();
+  MX_TIM4_Init();
+  MX_USART1_UART_Init();
+  MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
+    MPU6050_initialize();
+    DMP_Init();
+    printf("aaa");
+    HAL_TIM_Encoder_Start(&htim3,TIM_CHANNEL_1 | TIM_CHANNEL_2);
+    HAL_TIM_Encoder_Start(&htim4,TIM_CHANNEL_1 | TIM_CHANNEL_2);
+    HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_3);
+    HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_4);
+//    HAL_GPIO_WritePin(GPIOB,BIN1_Pin,GPIO_PIN_RESET);
+//    HAL_GPIO_WritePin(GPIOB,BIN2_Pin,GPIO_PIN_RESET);
+//    HAL_GPIO_WritePin(GPIOB,AIN1_Pin,GPIO_PIN_RESET);
+//    HAL_GPIO_WritePin(GPIOB,AIN2_Pin,GPIO_PIN_RESET);
 
-  Main();
+    Main();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-     printf("aa");
     /* USER CODE END WHILE */
+//    int pwmVal=0;
+//    /* USER CODE BEGIN 3 */
+//      int 	Direction = __HAL_TIM_IS_TIM_COUNTING_DOWN(&htim4);   //读取电机转动方向
+//      int CaptureNumber =	(short)__HAL_TIM_GET_COUNTER(&htim4);	  //读取编码器数�?
+//      __HAL_TIM_GET_COUNTER(&htim4) = 0;							  //计数器�?�重新置�?
+//      printf("Direction is %d \r\n",Direction);
+//      HAL_Delay(10);
+//      printf("CaptureNumber is %d \r\n",CaptureNumber);
+//      HAL_Delay(500);
+        Read_DMP();
+      //printf("%f\r\n",gyro[0]);
 
-    /* USER CODE BEGIN 3 */
+//      while (pwmVal< 500) {
+//          pwmVal++;
+//                  __HAL_TIM_SetCompare(&htim2, TIM_CHANNEL_1, pwmVal);    //修改比较值，修改占空比
+////		  TIM3->CCR1 = pwmVal;    与上方相同
+//          HAL_Delay(1);
+//      }
   }
   /* USER CODE END 3 */
 }
@@ -115,6 +147,7 @@ void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
 
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
@@ -141,6 +174,12 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_ADC;
+  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV6;
+  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
     Error_Handler();
   }

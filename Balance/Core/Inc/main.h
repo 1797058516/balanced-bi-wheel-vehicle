@@ -31,7 +31,10 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+//新增头文�?
+#include "../../Platform/retarget.h"
+#include "../../User/common_inc.h"
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -57,6 +60,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define BIN2_Pin GPIO_PIN_12
+#define BIN2_GPIO_Port GPIOB
+#define BIN1_Pin GPIO_PIN_13
+#define BIN1_GPIO_Port GPIOB
+#define AIN1_Pin GPIO_PIN_14
+#define AIN1_GPIO_Port GPIOB
+#define AIN2_Pin GPIO_PIN_15
+#define AIN2_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

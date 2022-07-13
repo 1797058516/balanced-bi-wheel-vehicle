@@ -49,16 +49,23 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc Drivers/STM32F1xx_HAL_Driver/Inc Drivers/STM32F1xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F1xx/Include
-        Drivers/CMSIS/Include
-        Bsp/imu/ Bsp/imu/filters
+include_directories(Core/Inc Drivers/STM32F1xx_HAL_Driver/Inc Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+        Drivers/CMSIS/Device/ST/STM32F1xx/Include Drivers/CMSIS/Include
+        Bsp/EncoderMotor Bsp Bsp/MPU6050
         Platform
         User
         )
 
+#include_directories(Bsp/EncoderMotor Bsp Bsp/imu Bsp/imu/filters
+#        Platform
+#        User
+#        )
+
 add_definitions(-DUSE_HAL_DRIVER -DSTM32F103xB)
 
-file(GLOB_RECURSE SOURCES "startup/*.*" "Drivers/*.*" "Core/*.*" "Bsp/*.*" "Platform/*.*" "User/*.*")
+file(GLOB_RECURSE SOURCES "startup/*.*" "Drivers/*.*" "Core/*.*" "User/*.*" "Platform/*.*" "Bsp/*.*")
+
+#file("User/*.*" "Platform/*.*" "Bsp/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103C8Tx_FLASH.ld)
 

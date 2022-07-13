@@ -7,13 +7,19 @@ extern "C" {
 /*---------------------------- C Scope ---------------------------*/
 #include "stdint-gcc.h"
 #include "stm32f1xx_hal.h"
+#include "../Core/Inc/i2c.h"
+#include "../Inc/main.h"
+#include "../Platform/retarget.h"
+
 void Main();
 
 #ifdef __cplusplus
 }
 /*---------------------------- C++ Scope ---------------------------*/
 #include <cstdio>
-#include "../Bsp/imu/MPU6050.hpp"
+
+#include "TB6612_STM32.h"
+
 
 #endif
 #endif
