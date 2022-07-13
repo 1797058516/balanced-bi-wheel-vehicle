@@ -25,10 +25,10 @@ public:
 
     void setMotorPwmLeft(float percent);
     void setMotorPwmRight(float percent);
+    void setMotorPwmLeft(int pwm);
+    void setMotorPwmRight(int pwm);
 private:
-    int timPeriod=1000;
-
-
+    const int timPeriod=1000;
 
 };
 
